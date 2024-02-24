@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name="Cucumber" time="6.356" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="User could register with valid data" name="register a new account" time="6.236">
+<system-out><![CDATA[
+Given user navigate to register page........................................passed
+When select gender, fill firstname and lastname.............................passed
+And choose birthdate day, month, year.......................................passed
+Then insert email, password and confirm password............................passed
+And click on register button................................................passed
+Then successful register message appears....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
